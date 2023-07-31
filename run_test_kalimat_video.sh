@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_individual_inner_group_shift_joint_mod_2.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_individual_inner_group_shift_joint_mod_3.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_individual_inner_group_shift_joint_mod_4.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_individual_outer_group_shift_joint_mod_3.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_individual_outer_group_shift_joint_mod_4.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_local.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_merged_inner_group_shift_joint_mod_2.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_merged_inner_group_shift_joint_mod_3.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_merged_inner_group_shift_joint_mod_4.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_merged_outer_group_shift_joint_mod_3.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_merged_outer_group_shift_joint_mod_4.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_modified_shift_joint_mod_2.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_modified_shift_joint_mod_3.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_modified_shift_joint_mod_4.yaml --video ./video/saya_makan_beberapa_buah.mp4
+CUDA_VISIBLE_DEVICES="0" python eval.py --config ./config/recalculated/test/test_sibi_with_mouth_augmented_non_local.yaml --video ./video/saya_makan_beberapa_buah.mp4
