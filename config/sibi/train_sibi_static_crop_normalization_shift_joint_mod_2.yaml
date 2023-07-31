@@ -2,7 +2,7 @@ Experiment_name: sibi_static_crop_normalization_ShiftGCN_mod_2_joint_n_5_kfold
 
 # feeder
 feeder: feeders.feeder_hsd.Feeder
-data_path: ./data/sibi_data_static_crop_normalization/
+data_path: ./data/sibi_data_with_mouth_crop_static_normalization/
 train_feeder_args:
   debug: False
   random_choose: False

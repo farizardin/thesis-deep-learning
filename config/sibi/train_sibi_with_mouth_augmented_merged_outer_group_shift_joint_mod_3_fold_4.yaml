@@ -1,8 +1,8 @@
-Experiment_name: sibi_merged_inner_group_ShiftGCN_mod_3_joint_n_5_kfold
+Experiment_name: sibi_merged_outer_group_ShiftGCN_mod_3_joint_n_5_kfold_fold_4
 
 # feeder
 feeder: feeders.feeder_hsd.Feeder
-data_path: ./data/sibi_data_augmented_coordinate_recalculation_unnormalized_z_xy_negative_reflection
+data_path: ./data/augmented_recalculate_normalized_2
 train_feeder_args:
   debug: False
   random_choose: False
@@ -26,14 +26,14 @@ model_args:
   num_person: 1
   num_point: 115
   graph_group: [[0,81], [82,114]]
-  method: 'grouped.inner'
+  method: 'grouped.outer'
   weight: 3
   graph: graph.skeleton_with_mouth.SkeletonWithMouth
   graph_args:
     labeling_mode: 'spatial'
 
 n_splits: 5
-folds_range: [0, 5]
+folds_range: [3, 4]
 #optim
 weight_decay: 0.0001
 base_lr: 0.1

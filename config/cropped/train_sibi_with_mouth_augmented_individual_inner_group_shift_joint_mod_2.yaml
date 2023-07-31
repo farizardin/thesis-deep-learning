@@ -2,7 +2,7 @@ Experiment_name: sibi_crop_individual_inner_group_ShiftGCN_mod_2_joint_n_5_kfold
 
 # feeder
 feeder: feeders.feeder_hsd.Feeder
-data_path: ./data/augmented_crop_normalized
+data_path: ./data/sibi_data_augmented_dynamic_bounding_box_image_cropping
 train_feeder_args:
   debug: False
   random_choose: False

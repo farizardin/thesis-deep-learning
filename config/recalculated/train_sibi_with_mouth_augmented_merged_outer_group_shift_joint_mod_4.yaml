@@ -2,7 +2,7 @@ Experiment_name: sibi_merged_outer_group_ShiftGCN_mod_4_joint_n_5_kfold
 
 # feeder
 feeder: feeders.feeder_hsd.Feeder
-data_path: ./data/augmented_recalculate_normalized
+data_path: ./data/sibi_data_augmented_coordinate_recalculation_unnormalized_z_xy_negative_reflection
 train_feeder_args:
   debug: False
   random_choose: False

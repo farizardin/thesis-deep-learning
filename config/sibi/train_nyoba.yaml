@@ -1,8 +1,8 @@
-Experiment_name: sibi_merged_inner_group_ShiftGCN_mod_3_joint_n_5_kfold
+Experiment_name: sibi_individual_inner_group_ShiftGCN_mod_2_joint_n_5_kfold
 
 # feeder
 feeder: feeders.feeder_hsd.Feeder
-data_path: ./data/sibi_data_augmented_coordinate_recalculation_unnormalized_z_xy_negative_reflection
+data_path: ./data/sibi_data_unnormalized
 train_feeder_args:
   debug: False
   random_choose: False
@@ -25,9 +25,9 @@ model_args:
   num_class: 50 # 400
   num_person: 1
   num_point: 115
-  graph_group: [[0,81], [82,114]]
+  graph_group: [[0, 39], [40, 60], [61, 81], [82,114]]
   method: 'grouped.inner'
-  weight: 3
+  weight: 2
   graph: graph.skeleton_with_mouth.SkeletonWithMouth
   graph_args:
     labeling_mode: 'spatial'
